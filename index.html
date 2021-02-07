@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1>Les formulaires</h1>
+    </center>
+    <form>
+        <fieldset>
+            <legend>Données Personnelles:</legend>
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom"><br>
+            <label for="prenom">Prénom:</label>
+            <input type="text" id="prenom" name="prenom"><br>
+            <label for="date">date de naissance:</label>
+            <input type="date" id="date" name="date"><br>
+            <label for="Sexe">Sexe:</label>
+            <select id="Sexe" name="Sexe">
+                <option value="homme">Homme</option>
+                <option value="femme">femme</option>
+            </select><br>
+
+            <p>Etat civil:</p>
+            <input type="checkbox" id="Marié" name="Marié">
+            <label for="Marié">Marié(e)</label>
+
+            <input type="checkbox" id="Célibataire" name="Célibataire">
+            <label for="Célibataire">Célibataire</label>
+
+
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Données de Connexion:</legend>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="use@exemple.com"><br>
+            <label for="password">Mot de passe:</label>
+            <input type="password" id="password" name="password" placeholder="Votre mot de passe"><br>
+            <input type="checkbox" id="conditions" name="conditions" >
+            <label for="conditions">J'ai lu et j'accepte les <a href="./txt.txt"> conditions d'utilisation </a>du Site Web</label>
+        </fieldset>
+    </form>
+    <center>
+        <input type="submit" value="S'inscrire">
+        <input type="submit" value="Annuler">
+    </center>
+</body>
+
+</html>
